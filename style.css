@@ -1,0 +1,165 @@
+body {
+    
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: #2A2C2F;
+
+}
+
+    height: 100vh;
+    min-height: 720px;
+    max-height: 800px;
+    padding: 30px 80px 40px;
+    position: relative;
+    
+
+.header {
+    
+    
+    
+
+    
+
+}
+
+.header__logo {
+    width: 270px;
+    height: 70px;
+    top: 34px;
+    left: 505px;
+    
+
+
+}
+
+.lead {
+    width: 984px;
+    height: 983px;
+    top: 194px;
+    left: 148px;
+}
+
+.lead__title {
+    font-family: Inter;
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 100px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    
+    
+}
+
+.lead__subtitle {
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+
+
+}
+
+.lead__image {
+    width: 984px;
+    height: 615px;
+    top: 562px;
+    left: 148px;
+
+}
+
+.intro {
+
+
+}
+
+.intro__title {
+width: 1017px;
+height: 116px;
+top: 1269px;
+left: 148px;
+color: #FFFFFF;
+
+
+
+}
+
+.intro__subtitle {
+    width: 722px;
+    height: 136px;
+    top: 1425px;
+    left: 148px;
+    color: #FFFFFF;
+    
+}
+
+.intro__description {
+    width: 720px;
+    height: 182px;
+    top: 1603px;
+    left: 148px;
+    color: #FFFFFF;
+
+}
+
+.photo-grid {
+    width: 1184px;
+    height: 442px;
+    top: 1877px;
+    left: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+
+
+}
+
+.photo-grid__item {
+
+}
+
+.places__cards {
+
+}
+
+.card {
+
+}
+
+.card__title {
+
+}
+
+.card__image {
+
+}
+
+.card__heading {
+
+}
+
+
+.card__subtitle {
+    
+}
+
+.card__content {
+
+}
+
+.form {
+
+
+}
+
+.submit {
+
+}
+
