@@ -134,6 +134,7 @@ color: #FFFFFF;
 }
 
 .card__title {
+    color: #FFFFFF;
 
 }
 
@@ -142,15 +143,20 @@ color: #FFFFFF;
 }
 
 .card__heading {
+    color: #AAAAAA;
 
 }
 
 
 .card__subtitle {
+    color: #FFFFFF;
+
     
 }
 
 .card__content {
+    color: #FFFFFF;
+
 
 }
 
@@ -159,7 +165,18 @@ color: #FFFFFF;
 
 }
 
-.submit {
+.form__button {
+    background-color: #0278FE;
+    color: #FFFFFF;
+    border-radius: 4px;
+    width: Hug (355px)
+    height: Hug (48px)
+    top: 3119px;
+    left: 148px;
+    padding: 13px, 20px, 13px, 20px;
+    gap: 10px;
+    
+
 
 }
 
