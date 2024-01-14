@@ -1,3 +1,35 @@
+
+@font-face {
+    src: url(../web_project_homeland/vendor/web/Inter-Black.woff2) format("woff2");
+    font-family: "Inter"; 
+    font-weight: black;
+    font-style: normal;
+}
+
+@font-face {
+    src: url(../web_project_homeland/vendor/fuentes/Inter-BlackItalic.woff2) format("woff2");
+    font-family: "Inter"; 
+    font-weight: black;
+    font-style: italic;
+}
+
+@font-face {
+    src: url(../web_project_homeland/vendor/fuentes/Inter-Bold.woff2) format("woff2");
+    font-family: "Inter"; 
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    src: url(../web_project_homeland/vendor/fuentes/Inter-BoldItalic.woff2) format("woff2");
+    font-family: "Inter"; 
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
 body {
     
 }
@@ -7,6 +39,7 @@ body {
     flex-direction: column;
     box-sizing: border-box;
     background-color: #2A2C2F;
+    margin: 0 auto;
 
 }
 
@@ -31,7 +64,7 @@ body {
     height: 70px;
     top: 34px;
     left: 505px;
-    
+    text-align: center;
 
 
 }
@@ -45,13 +78,14 @@ body {
 
 .lead__title {
     font-family: Inter;
-    font-size: 96px;
+    font-style: normal;
     font-weight: 900;
+    font-size: 96px;
     line-height: 100px;
     letter-spacing: 0em;
     text-align: center;
     color: #FFFFFF;
-    
+   
     
 }
 
