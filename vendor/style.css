@@ -25,21 +25,20 @@
 }
 
 
-
-body {
-    
-}
-
 .page {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
     background-color: #2A2C2F;
     margin: 0 auto;
-
+    min-width: 320px;
+    max-width: 1280px;
+    font-family: "Inter";
+    height: 100vh;
+    
 }
 
-    height: 100vh;
+    
     min-height: 720px;
     max-height: 800px;
     padding: 30px 80px 40px;
