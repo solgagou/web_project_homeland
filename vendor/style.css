@@ -2,7 +2,7 @@
 
 
 @font-face {
-    src: url(../web_project_homeland/vendor/fonts/Inter-Black.woff2) format("woff2");
+    src: url(./fonts/Inter-Black.woff2) format("woff2");
     font-family: "Inter"; 
     font-weight: 900;
     font-style: normal;
@@ -10,7 +10,7 @@
 
 
 @font-face {
-    src: url(../web_project_homeland/vendor/fonts/Inter-SemiBold.woff2) format("woff2");
+    src: url(./fonts/Inter-SemiBold.woff2) format("woff2");
     font-family: "Inter"; 
     font-weight: 600;
     font-style: normal;
@@ -18,7 +18,7 @@
 
 
 @font-face {
-    src: url(../web_project_homeland/vendor/fonts/Inter-Regular.woff2) format("woff2");
+    src: url(./fonts/Inter-Regular.woff2) format("woff2");
     font-family: "Inter"; 
     font-weight: 400;
     font-style: normal;
@@ -37,13 +37,6 @@
     height: 100vh;
     
 }
-
-    
-    min-height: 720px;
-    max-height: 800px;
-    padding: 30px 80px 40px;
-    position: relative;
-    
 
 .header {
     
@@ -252,7 +245,7 @@ color: #FFFFFF;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line   -height: 22px;
+    line-height: 22px;
         
 }
 
