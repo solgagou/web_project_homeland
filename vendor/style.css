@@ -1,4 +1,4 @@
-@import url(../web_project_homeland/vendor/normalize.css); 
+@import url(./normalize.css); 
 
 
 @font-face {
@@ -31,37 +31,33 @@
     box-sizing: border-box;
     background-color: #2A2C2F;
     margin: 0 auto;
-    min-width: 320px;
     max-width: 1280px;
     font-family: "Inter";
-    height: 100vh;
+    
+
     
 }
 
 .header {
-    
-    
-    
-
-    
-
+    flex-direction: column;
+    height: 100vh;
+    box-sizing: border-box;
+    height: 100vh;
 }
+
+    
+
 
 .header__logo {
     width: 270px;
     height: 70px;
-    top: 34px;
-    left: 505px;
     text-align: center;
 
 
 }
 
 .lead {
-    width: 984px;
-    height: 983px;
-    top: 194px;
-    left: 148px;
+   
 }
 
 .lead__title {
@@ -70,10 +66,11 @@
     font-weight: 900;
     font-size: 96px;
     line-height: 100px;
+/* or 104% */
     letter-spacing: 0em;
     text-align: center;
     color: #FFFFFF;
-   
+      
     
 }
 
@@ -90,16 +87,16 @@
 }
 
 .lead__image {
+    justify-content: center;
     width: 984px;
     height: 615px;
-    top: 562px;
-    left: 148px;
+    
 
 }
 
 .intro {
-
-
+    flex-direction: column;
+    
 }
 
 .intro__title {
@@ -107,10 +104,6 @@
     font-size: 54px;
     font-weight: 900;
     line-height: 58px;
-    width: 1017px;
-    height: 116px;
-    top: 1269px;
-    left: 148px;
     color: #FFFFFF;
 
 
@@ -118,11 +111,6 @@
 }
 
 .intro__subtitle {
-    position: absolute;
-    width: 722px;
-    height: 136px;
-    top: 1425px;
-    left: 148px;
     color: #FFFFFF;
     font-family: 'Inter';
     font-style: normal;
@@ -131,18 +119,11 @@
     line-height: 34px;
 /* or 142% */
     color: #FFFFFF;
-
-
-    
+  
 }
 
 
 .intro__span-subtitle {
-position: absolute;
-width: 720px;
-height: 34px;
-left: 148px;
-top: 1537px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
@@ -155,11 +136,6 @@ color: #FFFFFF;
 }
 
 .intro__description {
-    position: absolute;
-    width: 720px;
-    height: 182px;
-    left: 148px;
-    top: 1603px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -171,10 +147,6 @@ color: #FFFFFF;
 }
 
 .photo-grid {
-    width: 1184px;
-    height: 442px;
-    top: 1877px;
-    left: 48px;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
@@ -183,7 +155,7 @@ color: #FFFFFF;
 }
 
 .photo-grid__item {
-    position: absolute;
+    
 
 }
 
@@ -193,16 +165,12 @@ color: #FFFFFF;
 }
 
 .card {
+    list-style: none;
 
 }
 
 .card__title {
     color: #FFFFFF;
-    position: absolute;
-    width: 460px;
-    height: 152px;
-    left: 148px;
-    top: 2411px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
@@ -218,11 +186,6 @@ color: #FFFFFF;
 
 .card__heading {
     color: #AAAAAA;
-    position: absolute;
-    width: 58px;
-    height: 15px;
-    left: 648px;
-    top: 2518px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -236,11 +199,6 @@ color: #FFFFFF;
 
 .card__subtitle {
     color: #FFFFFF;
-    position: absolute;
-    width: 456px;
-    height: 22px;
-    left: 648px;
-    top: 2541px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -251,11 +209,6 @@ color: #FFFFFF;
 
 .card__content {
     color: #FFFFFF;
-    position: absolute;
-    width: 484px;
-    height: 203px;
-    left: 648px;
-    top: 2611px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -279,8 +232,6 @@ color: #FFFFFF;
     left: 148px;
     padding: 13px, 20px, 13px, 20px;
     gap: 10px;
-    width: 315px;
-    height: 22px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -296,10 +247,6 @@ color: #FFFFFF;
 }
 
 .footer__title {
-    position: absolute;
-    width: 656px;
-    height: 76px;
-    left: 312px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
@@ -312,10 +259,6 @@ color: #FFFFFF;
 }
 
 .footer__subtitle {
-    position: absolute;
-    width: 280px;
-    height: 66px;
-    left: 500px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -340,29 +283,30 @@ color: #FFFFFF;
 
 }
  
-.footer__button {/* __subtitle */
-    width: 280px;
-    height: 66px;
-    left: 500px;
+.footer__button {
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 18px;
     line-height: 22px;
     /* or 122% */
     text-align: center;
     color: #FFFFFF;
+    background-color: #0278FE;
     flex: none;
     order: 0;
     flex-grow: 0;
-
+    border-radius: 4px;
+    
 }
 
+
+    
+    
+    flex: none;
+    flex-grow: 0;
+
 .footer__copyright {
-    width: 191px;
-    height: 16px;
-    left: 531px;
-    top: 7433px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
