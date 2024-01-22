@@ -240,12 +240,15 @@ text-align: right;
     font-size: 18px;
     line-height: 22px;
     /* or 122% */
-    flex: none;
-    flex-grow: 0;
+    
     margin-top: 48px;
 
 }
 
+.button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
 
 
 .place__column_heading {
@@ -258,6 +261,7 @@ text-align: right;
     letter-spacing: 0.12em;
     text-transform: uppercase;
     margin-bottom: 8px;
+    text-decoration: none;
     
 }
 
