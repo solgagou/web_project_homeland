@@ -323,25 +323,167 @@ text-align: right;
 
 
 @media screen and (max-width: 1279px) {
+
+    .header__logo {
+        width: 200px;
+        height: 52px;
+        margin-bottom: 50px;
+    }
+
+    .lead__title {
+        font-size: 40px;
+        margin-bottom: 60px;
+    }
+
+    .lead__subtitle {
+        margin-bottom: 40px;
+    }
+
+
+    .lead {
+      
+
+    }
+
+    .lead__title {
+
+
+    }
+
+    .lead__subtitle {
+
+    }
+
     .lead__image {
-    width: 100%;
-    height: 480px;
+        width: 320px;
+        height: 200px;
 
     }
 
-    .header__title {
+    .intro {
+        margin: 44px 16px 38px 16px;
+    }
+
+    .intro__title {
+        font-size: 32px;
+
 
     }
+
+    .intro__subtitle {
+        font-size: 24px;
+
+
+    }
+
+    .intro__description {
+        font-size: 16px;
+
+
+    }
+/*
+    .photo-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-gap: 16px 16px;
+        margin: auto 24px 88px 24px;
+
+    }
+
+    .places {
+        margin: auto;
+    }
+
+    .place {
+        margin: auto 24px auto 24px;
+        gap: 28px;
+    
+    }
+
+    .place__image {
+        width: 340px;
+        
+    }
+
+    
+    .place__title {
+        font-size: 42px;
+    
+    }
+
+    .footer__image {
+        width: 100%;
+}
+    .place__content {
+        font-size: 16px;
+    
 }
 
-     
+}
 
+@media screen and (max-width: 767px) {
+    .header__logo {
+        margin-bottom: 90px;
+    }
 
-@media screen and (max-width: 768px) {
-    body {
+    .lead__title {
+        margin-bottom: 99px;
+    }
+
+    .lead__subtitle {
+        margin-bottom: 69px;
+    }
+
+    .lead__image {
+        width: 100%;
+        height: 480px;
+
+    }
+
+    .intro {
+        margin: auto 24px auto 24px;
 
 
     }
+
+    .photo-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-gap: 16px 16px;
+        margin: auto 24px 88px 24px;
+
+    }
+
+    .places {
+        margin: auto;
+    }
+
+    .place {
+        margin: auto 24px auto 24px;
+        gap: 28px;
+    
+    }
+
+    .place__image {
+        width: 340px;
+        
+    }
+
+    
+    .place__title {
+        font-size: 42px;
+    
+    }
+
+    .footer__image {
+        width: 100%;
+}
+    .place__content {
+        font-size: 16px;
+    
+}
 
     
 }
