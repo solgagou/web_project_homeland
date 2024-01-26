@@ -1,0 +1,61 @@
+@import url(../vendor/normalize.css); 
+
+
+@font-face {
+    src: url(./fonts/Inter-Black.woff2) format("woff2");
+    font-family: "Inter"; 
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+@font-face {
+    src: url(./fonts/Inter-SemiBold.woff2) format("woff2");
+    font-family: "Inter"; 
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+@font-face {
+    src: url(./fonts/Inter-Regular.woff2) format("woff2");
+    font-family: "Inter"; 
+    font-weight: 400;
+    font-style: normal;
+}
+
+@import url("../blocks/page");
+
+@import url("../blocks/header");
+
+@import url("../blocks/lead");
+
+@import url("../blocks/intro");
+
+@import url("../blocks/photo-grid");
+
+@import url("../blocks/places");
+
+@import url("../blocks/footer");
+
+
+
+
+
+
+
+    
+        
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,172 @@
+.places {
+    margin: auto 148px auto 145px;
+        
+
+
+}
+
+.place {
+   display: grid;
+   grid-template-areas: "title subtitle"
+   "image content"
+   "button content";
+   gap: 40px;
+   margin-top: 100px;
+    
+}    
+
+.place__title {
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 106%;
+    max-width: 550px;
+    grid-area: title;
+    margin: 0;
+
+}
+
+.place__subtitle {
+    grid-area: subtitle;
+    margin: 0;
+    align-self: end;
+}
+
+.place__column_heading {
+    color: #AAAAAA;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+    text-decoration: none;
+    
+}
+
+.place__column_subtitle {
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0;
+           
+}
+
+
+.place__image {
+    grid-area: image;
+    width: 100%;
+}
+
+
+.place__content {
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    grid-area: content;
+
+
+}
+
+
+.button {
+    background-color: #0278FE;
+    width: 315px;
+    height: 50px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    padding: 13px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 122%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    grid-area: button;
+    text-decoration: none;
+}
+
+.button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1279px) {
+
+  
+    .places {
+        margin: auto;
+    }
+
+    .place {
+        margin: auto 24px auto 24px;
+        gap: 28px;
+    
+    }
+
+    .place__title {
+        font-size: 42px;
+    
+    }
+
+    .place__image {
+        width: 340px;
+        
+    }
+
+    .place__content {
+        font-size: 16px;
+    
+}
+
+}
+
+@media screen and (max-width: 767px) {
+    
+
+
+    .places {
+        margin: auto;
+    }
+
+    .place {
+        display: block;
+        margin: auto;
+        gap: 28px;
+    
+    }
+
+    .place__title {
+        margin-top: 62px;
+        font-size: 32px;
+    }
+
+     
+    .place__image {
+        width: 100%;
+        
+    }
+
+    .place__content {
+        font-size: 16px;
+    
+}
+     
+    .button {
+        max-width: 280px;   
+    }
+
+}
