@@ -48,7 +48,7 @@
     height: 70px;
     display: flex;
     align-items: center;
-    margin: 34px auto;
+    margin: 34px auto 90px auto;
 }
     
         
@@ -74,7 +74,7 @@
     text-align: center;
     color: #FFFFFF;
     max-width: 793px;
-    margin: auto;
+    margin: auto auto 32px auto;
     
       
     
@@ -89,7 +89,7 @@
     text-align: center;
     color: #FFFFFF;
     max-width: 720px;
-    margin: auto;
+    margin: auto auto 64px auto;
     
     
 }
@@ -133,7 +133,7 @@
     font-size: 24px;
     line-height: 142%;
     color: #FFFFFF;
-    width: 722px;
+    max-width: 722px;
   
 }
 
@@ -158,7 +158,8 @@ text-align: right;
     font-size: 16px;
     line-height: 163%;
     color: #FFFFFF;
-    width: 720px;
+    max-width: 720px;
+    margin-bottom: 92px;
 
 }
 
@@ -294,14 +295,11 @@ text-align: right;
 }
 
 .footer__cover {
-    margin: auto auto 92px auto;
-
+   
 }
 
 .footer__image {
-    width: 100%;
-
-
+    margin: auto;
 }
 
 .footer__button {
@@ -361,7 +359,7 @@ text-align: right;
     }
 
     .intro {
-        margin: 44px 16px 38px 16px;
+        margin: auto;
     }
 
     .intro__title {
@@ -381,7 +379,7 @@ text-align: right;
 
 
     }
-/*
+
     .photo-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -433,11 +431,12 @@ text-align: right;
 
     .lead__subtitle {
         margin-bottom: 69px;
+        font-size: 16px;
     }
 
     .lead__image {
         width: 100%;
-        height: 480px;
+        height: 200px;
 
     }
 
@@ -449,11 +448,10 @@ text-align: right;
 
     .photo-grid {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-        grid-gap: 16px 16px;
-        margin: auto 24px 88px 24px;
-
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 16px 0;
+        margin: 0;
+        
     }
 
     .places {
@@ -461,29 +459,45 @@ text-align: right;
     }
 
     .place {
-        margin: auto 24px auto 24px;
+        display: block;
+        margin: auto;
         gap: 28px;
     
     }
 
+    .place__title {
+        margin-top: 62px;
+        font-size: 32px;
+    
+    }
+
+    . place__column_subtitle {
+          
+
+    }
+    
     .place__image {
-        width: 340px;
+        width: 100%;
         
     }
 
-    
-    .place__title {
-        font-size: 42px;
-    
-    }
-
-    .footer__image {
-        width: 100%;
-}
     .place__content {
         font-size: 16px;
     
 }
+    
+   
+
+    .button {
+        max-width: 280px;   
+    }
+
+
+    .footer__image {
+        width: 100%;
+        margin-top: 64px;
+}
+    
 
     
 }
