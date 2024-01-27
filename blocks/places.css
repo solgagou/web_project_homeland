@@ -34,7 +34,7 @@
     align-self: end;
 }
 
-.place__column_heading {
+.place__column-heading {
     color: #AAAAAA;
     font-family: 'Inter';
     font-style: normal;
@@ -48,7 +48,7 @@
     
 }
 
-.place__column_subtitle {
+.place__column-subtitle {
     color: #FFFFFF;
     font-family: 'Inter';
     font-style: normal;
