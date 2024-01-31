@@ -52,7 +52,7 @@ text-align: right;
 
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
 
     .intro {
         margin: auto;

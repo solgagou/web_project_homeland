@@ -7,4 +7,4 @@
 
 ## El proyecto está en desarrollo.
 
-## [Enlace del proyecto](https://github.com/solgagou/web_project_homeland)
+## [Enlace del proyecto](https://solgagou.github.io/web_project_homeland/)
