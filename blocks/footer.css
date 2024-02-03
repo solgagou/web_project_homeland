@@ -60,24 +60,6 @@
 }
 
 
-.footer__subtitle-availability {
-    
-    
-
-}
-
-
-.footer__subtitle-name {
-
-
-}
-
-
-.footer__subtitle-address {
-
-
-}
-
 .footer__button {
     background-color: #0278FE;
     max-width: 158px;
@@ -111,6 +93,11 @@
     
 }
 
+@media screen and (max-width: 1280px) {
+    .footer__image {
+        width: 90%;
+    }
+}
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
 
