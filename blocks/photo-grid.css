@@ -36,7 +36,12 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 16px 0;
-        margin: 0;
+        margin: auto 16px auto 16px;
+        
     }
+
+    .photo-grid__item {
+        
+}
 
 }

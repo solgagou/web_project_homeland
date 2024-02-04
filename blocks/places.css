@@ -23,7 +23,7 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 106%;
-    max-width: 550px;
+    max-width: 460px;
     grid-area: title;
     margin: 0;
 
@@ -46,6 +46,7 @@
     text-transform: uppercase;
     padding-bottom: 8px;
     text-decoration: none;
+    
     
 }
 
@@ -83,7 +84,7 @@
 .button {
     background-color: #0278FE;
     max-width: 355px;
-    height: 50px;
+    height: 48px;
     color: #FFFFFF;
     border-radius: 4px;
     padding: 13px;
@@ -114,12 +115,13 @@
 
     .place {
         margin: auto 24px auto 24px;
-        gap: 28px;
+        gap: 31px;
     
     }
 
     .place__title {
         font-size: 42px;
+        width: 340px;
     
     }
 
@@ -130,6 +132,7 @@
 
     .place__content {
         font-size: 16px;
+        width: 352px;
     
 }
 
@@ -147,29 +150,45 @@
         display: block;
         margin: auto;
         gap: 28px;
+        width: 320px;
     
     }
 
     .place__title {
-        margin-top: 62px;
+        
         font-size: 32px;
     }
 
-     
-    .place__image {
-        width: 100%;
-        max-height: 320px;
-        object-fit: cover;
+    .place__subtitle {
         
+    }
+
+    .place__column-heading {
+        margin-top: 30px;
+    }
+     
+    .place__column-subtitle {
+
     }
 
     .place__content {
         font-size: 16px;
+        
+        
+    }
+
+    .place__image {
+        width: 100%;
+       
+        
+    }
+       
     
-}
+
      
     .button {
         max-width: 288px;   
+        
     }
 
 }

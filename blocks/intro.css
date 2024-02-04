@@ -9,7 +9,7 @@
     font-weight: 900;
     line-height: 58px;
     color: #FFFFFF;
-    max-width: 1000px;
+    max-width: 1017px;
     
     
 
@@ -59,7 +59,8 @@ text-align: right;
     }
 
     .intro__title {
-        font-size: 32px;
+        font-size: 54px;
+        width: 720px;
 
 
     }
@@ -84,4 +85,10 @@ text-align: right;
         margin: auto 24px auto 24px;
     }
 
+    .intro__title {
+        line-height: 35px;
+        font-size: 32px;
+        width: 288px;
+}
+    
 }
