@@ -1,8 +1,6 @@
 .places {
     margin: auto 148px auto 145px;
-        
-
-
+ 
 }
 
 .place {
@@ -13,7 +11,7 @@
    gap: 40px;
    margin-top: 100px;
    margin-bottom: 92px;
-    
+       
 }    
 
 .place__title {
@@ -115,7 +113,8 @@
 
     .place {
         margin: auto 24px auto 24px;
-        gap: 31px;
+        
+        
     
     }
 
@@ -132,34 +131,43 @@
 
     .place__content {
         font-size: 16px;
-        width: 352px;
+        
     
 }
+
+    .button {
+        max-width: 355px;
+        
+    }
 
 }
 
 @media screen and (max-width: 320px) {
     
-
-
     .places {
         margin: auto;
     }
 
+   
     .place {
         display: block;
         margin: auto;
         gap: 28px;
-        width: 320px;
+        
     
     }
 
     .place__title {
-        
+        max-width: 288px;
         font-size: 32px;
+        margin: 62px 16px auto 16px;
+        
     }
 
     .place__subtitle {
+        max-width: 288px;
+        font-size: 32px;
+        margin: 30px 16px 30px 16px;
         
     }
 
@@ -167,27 +175,23 @@
         margin-top: 30px;
     }
      
-    .place__column-subtitle {
-
-    }
-
+   
     .place__content {
         font-size: 16px;
+        margin: auto 16px auto 16px;
         
         
     }
 
     .place__image {
-        width: 100%;
+        width: 320px;
        
         
     }
        
-    
-
-     
     .button {
-        max-width: 288px;   
+        font-size: 14px;
+        margin: auto 16px auto 16px;
         
     }
 
