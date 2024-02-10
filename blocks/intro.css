@@ -78,7 +78,7 @@ text-align: right;
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 720px) {
     
 
     .intro {

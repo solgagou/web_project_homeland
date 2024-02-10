@@ -142,7 +142,7 @@
 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 720px) {
     
     .places {
         margin: auto;
